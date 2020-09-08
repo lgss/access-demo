@@ -9,8 +9,8 @@ let vuetify = new Vuetify({
     theme: {
         themes: { 
             light: {
-                primary: "#1d5f7a",
-                secondary: "#f7f7f7",
+                primary: "#000000",
+                secondary: "#999",
             }
         }
     },
