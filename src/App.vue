@@ -1,7 +1,7 @@
 <template>
   <v-app id="why-are-we-doing-this">
     <v-app-bar app color="#ff77ff">
-      <v-toolbar-title><img alt="the smily face logo for a happy people production" width="65px" src="https://www.netclipart.com/pp/m/268-2689287_transparent-smiley-face-drawing.png"/></v-toolbar-title>
+      <v-toolbar-title><img alt="the smily face logo for a happy people production" title="the smily face logo for a happy people production" width="65px" src="https://www.netclipart.com/pp/m/268-2689287_transparent-smiley-face-drawing.png"/></v-toolbar-title>
       <template v-slot:extension>
         <v-tabs align-with-title>
           <v-tab>Home</v-tab>
@@ -32,6 +32,7 @@
                 </ol>
 
                 <img width="50%" src="https://www.greengeeks.com/blog/wp-content/uploads/2019/08/using-lighthouse.jpg"
+                    title="Josh Watson enthusiastically points to his laptop, which is displaying Google Lighthouse; a tool to test accessibility"
                     alt="Josh Watson enthusiastically points to his laptop, which is displaying Google Lighthouse; a tool to test accessibility"/>
           </v-col>
         </v-row>
@@ -46,7 +47,7 @@
       color="indigo"
       app
     >
-      <span class="white--text">&copy; {{ new Date().getFullYear() }}</span>
+      <span class="white--text">&copy; {{ new Date().getFullYear() }} happy people production</span>
     </v-footer>
   </v-app>
 </template>
