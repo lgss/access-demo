@@ -10,7 +10,8 @@
           <li>Contact</li>
         </ul>
       </nav>
-      <input name="search" type="text" />
+      <input name="search" id="search" type="text" />
+      <label for="search">Search</label>
     </header>
     <main>
       <article>
