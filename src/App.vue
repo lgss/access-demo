@@ -30,12 +30,12 @@
       </article>
       <form>
         <strong>Please enter your contact details</strong>
-        <label>* Full Name</label>
-        <input name="name" type="text" />
-        <label>* Email address</label>
-        <input name="email" type="text" />
-        <label>Contact Number</label>
-        <input name="number" type="text" />
+        <label for="name">* Full Name</label>
+        <input name="name" type="text" id="name" />
+        <label for="email">* Email address</label>
+        <input name="email" type="text" id="email" />
+        <label for="number">Contact Number</label>
+        <input name="number" type="text" id="number" />
         <input type="submit" />
       </form>
     </main>
